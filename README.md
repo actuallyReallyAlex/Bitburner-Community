@@ -29,7 +29,7 @@ Each script has been organized into a category. The categories are as follows:
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](Bitburner-Community/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](https://github.com/stavvie34/Bitburner-Community/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
 
 ## Versioning
 
