@@ -5,6 +5,25 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Naming Convention
+
+Scripts are to be named in the following way:
+
+`**scriptname**.js`
+
+*If a script was not named when it was originally posted, it has been named in the following way:*
+
+`**DATE POSTED - NAME OF POST REFERENCED - UNNAMED(x)**.js`
+
+Note:
+`'x'` corresponds to the order of unnamed scripts per that particular post.
+Scripts are to be saved as `.js` not `.script`, as `.script` only exists within NetScript
+
+#### Examples
+
+`RemoteHack.js` - Properly named script.
+`6-20-17 - 'Questions-Suggestions' - unnamed(5).js` - Script that was posted on June 20th, 2017, on the Reddit post named "Questions/Suggestions". This would be the 5th unnamed script in that thread.
+
 ## Code of Conduct
 
 ### Pledge
