@@ -1,0 +1,85 @@
+/*
+POSTED BY:
+u/boz987 (https://www.reddit.com/user/boz987)
+
+POSTED ON:
+September 22nd, 2017
+
+COMMENT CONTEXT:
+"Taken from a few soucres, but here goes:
+
+For each node, figures out what the best bang for buck is and buys if less than %1 of current cash.
+
+7.3GB ram, so have a starting script that hacks foodnstuff and then runs it there.
+
+Script:"
+
+REDDIT POST:
+https://www.reddit.com/r/Bitburner/comments/71sxly/hacknet_nodes_script_optimalish_calcs/
+*/
+
+
+
+//1% of current funds, per cycle.
+allowancePercentage = 0.01;
+while (true) {
+    for (i = 0; i < hacknetnodes.length; i++) {
+        gain = [0,0,0];
+        currentCash = getServerMoneyAvailable('home');
+        currentCash *= allowancePercentage;
+
+        if (getNextHacknetNodeCost() <= currentCash) {
+            purchaseHacknetNode();
+        }
+
+        node = hacknetnodes[i];
+
+        if (node.level < 200) {
+            gain[0] = ((node.level + 1) * 1.6) * Math.pow(1.035, (node.ram - 1)) * ((node.cores + 5) / 6) / node.getLevelUpgradeCost(1);
+        } else {
+            gain[0] = 0;
+        }
+
+        if (node.ram < 64) {
+            gain[1] = (node.level * 1.6) * Math.pow(1.035, (node.ram * 2) - 1) * ((node.cores + 5) / 6) /node.getRamUpgradeCost();
+        } else {
+            gain[1] = 0;
+        }
+
+        if (node.cores < 16) {
+            gain[2] = (node.level * 1.6) * Math.pow(1.035, node.ram - 1) * ((node.cores + 6) / 6) / node.getCoreUpgradeCost();
+        } else {
+            gain[2] = 0;
+        }
+
+        print('Level Upgrade:  ' + gain[0]);
+        print('Ram Upgrade:  ' + gain[1]);
+        print('Core Upgrade:  ' + gain[2]);
+
+        topgain = 0;
+
+        for (j = 0; j < 3; j++) {
+            if (gain[j] > topgain) {
+                topgain = gain[j];
+            }
+        }
+
+        if (topgain === 0) {
+            print('All Gains maxed on Node' + i);
+            break;
+        }
+
+        if (topgain == gain[0] && node.getLevelUpgradeCost(1) < currentCash) {
+            print('Upgrading Level on Node' + i);
+            node.upgradeLevel(1);
+        } else if (topgain == gain[1] && node.getRamUpgradeCost(1) < currentCash) {
+            print('Upgrading Ram on Node' + i);
+            node.upgradeRam();
+        } else if (topgain == gain[2] && node.getCoreUpgradeCost(1) < currentCash) {
+            print('Upgrading Core on Node' + i);
+            node.upgradeCore();
+        } else {
+            print('Cannot afford upgrades on Node' + i);
+        }
+    }
+}
