@@ -4,7 +4,7 @@ For inspiration, assistance, and discussion around the amazing cyperpunk-themed 
 
 I've compiled every script that was ever mentioned in a post on the BitBurner subreddit, and placed them into folders for convenience. I encourage you to make edits, additions, and supply constructive criticism.
 
-*Added scripts are verified to be able to run without a runtime error. If a script was posted as needing fixing, it was not added to this database.*
+*Added scripts are verified to be able to run without a runtime error. If a script was posted as needing fixing, it was not added to this database. If an update made a workaround script obsolete, it was not added.*
 
 ## Getting Started
 
