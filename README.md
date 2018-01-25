@@ -13,6 +13,7 @@ If you haven't already subscribed, a good place to start is the [Bitburner subre
 ### Useful Links
 
 * [Bitburner](https://danielyxie.github.io/bitburner/)
+* [Bitburner Documentation](http://bitburner.readthedocs.io/en/latest/index.html)
 * [Bitburner Wiki](https://bitburner.wikia.com/wiki/Bitburner_Wiki)
 * [NetScript Functions](http://bitburner.wikia.com/wiki/Netscript_Functions)
 * [Location Guide](http://imgur.com/a/kE3H2)
@@ -29,7 +30,7 @@ Each script has been organized into a category. The categories are as follows:
 * **Any** - *Scripts that are applicable to any point in the game.*
 * **Hacknet** - *Scripts to manage, setup, or improve your hacknet experience.*
 * **Stock Market** - *Scripts for managing the stock market.*
-* **Calculations** - *Scripts that calculate/determine optimization or hacking details.*
+* **Singularity** - *Scripts that utilize singularity functions.*
 * **Misc.**
 
 There are also subfolders that seek to add context to the main function of the script.
