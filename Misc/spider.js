@@ -26,7 +26,7 @@ for (i = 0; i < allServers.length; i++) {
 
 REDDIT POST:
 https://www.reddit.com/r/Bitburner/comments/7jgxpv/tip_work_while_monitoring_a_script/https://www.reddit.com/r/Bitburner/comments/7kqy07/useful_netscript_function_spider_returns_an_array/
-
+*/
 
 
 function spider() {
