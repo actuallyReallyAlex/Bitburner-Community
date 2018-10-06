@@ -1,0 +1,24 @@
+{
+  "name": "bitburner-community",
+  "version": "1.0.0",
+  "description": "For inspiration, assistance, and discussion around the amazing cyperpunk-themed incremental RPG, Bitburner.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlee-dev/Bitburner-Community.git"
+  },
+  "keywords": [
+    "bitburner",
+    "game",
+    "rpg",
+    "community",
+    "hack",
+    "cyber-punk"
+  ],
+  "author": "Alex Lee <www.alex-lee.site>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlee-dev/Bitburner-Community/issues"
+  },
+  "homepage": "https://www.bitburnercommunity.site/"
+}
