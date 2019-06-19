@@ -31,12 +31,12 @@ A community to post code and tips for the game Bitburner.
 
 - [Alex Lee](https://github.com/alexlee-dev) - Developer
 
-<!-- ## 🎉 Acknowledgements <a name="acknowledgement"></a>
+## 🎉 Acknowledgements <a name="acknowledgement"></a>
 
-- Icon made by [Nikita Golubev](https://www.flaticon.com/authors/nikita-golubev) from [www.flaticon.com](https://www.flaticon.com/) and is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
+- Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/) and is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
 
 [npm-image]: https://img.shields.io/npm/v/bitburner-community.svg
 [npm-downloads]: https://img.shields.io/npm/dt/bitburner-community.svg
 [npm-url]: https://www.npmjs.com/package/bitburner-community
 [size-image]: https://img.shields.io/bundlephobia/minzip/bitburner-community.svg
-[bitburner-community-icon]: https://github.com/alexlee-dev/bitburner-community/raw/master/bitburner-community.png -->
+[bitburner-community-icon]: https://github.com/alexlee-dev/bitburner-community/raw/master/bitburner-community.png
